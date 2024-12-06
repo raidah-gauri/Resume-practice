@@ -1,0 +1,38 @@
+.container{
+    margin: 1px 200px;
+    font-family: "Poppins", serif;
+    font-style: normal;
+}
+.container .name{
+    display: flex;
+    justify-content: center;
+}
+.section{
+    display: flex;
+    padding: 20px;
+    
+}
+.section h3{
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: rgb(90, 69, 69);
+}
+a:hover{
+    text-decoration: underline;
+}
+.contact span {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between icon and text */
+    margin-bottom: 20px;
+  }
+  .contact span img{
+   height: 22px;
+   width: 20px;
+  }
+.left-section,.right-section{
+    width: 50%;
+    margin-left: 20px;
+}
